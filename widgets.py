@@ -124,4 +124,7 @@ class CompletingEdit(ExtendedEdit):
 
 
     def _complete_arguments(self):
+        # TODO: check which parameter is to be completed and call
+        # completing function for command at the begining of edit_text
+        # with command, param_nr, text to complete, position in this text
         return True
